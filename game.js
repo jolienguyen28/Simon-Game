@@ -46,7 +46,7 @@ $(".btn").click(function(){
 })
 
 
-//number random di kem voi color next Sequence
+//number random 
 function nextSequence(){
   level++;
   $("#level-title").text("Level " + level);
@@ -81,47 +81,4 @@ function animatePress(currentColour){
   }, 100);
       }
       
-
-// //main - try
-// $(document).on(keydown, function(){
-//   nextSequence();
-//   var level = 0;
-//   $("h1").text("Level"+level)
-//   level +=1; 
-
-
-
-// $("#"+randomChosenColour).click(function playAudio(randomChosenColour){
-//     var userChosenColour = "#"+randomChosenColour;
-//      switch(randomChosenColour){
-//         case"red":
-//         var red = new Audio ("./sounds/red.mp3");
-//         red.play();
-//         break;
-   
-//         case"blue":
-//         var blue = new Audio ("./sounds/blue.mp3");
-//         blue.play();
-//         break;
-   
-//         case"green":
-//         var green = new Audio ("./sounds/green.mp3");
-//         green.play();
-//         break;
-   
-//         case"yellow":
-//         var yellow = new Audio ("./sounds/yellow.mp3");
-//         yellow.play();
-//         break;
-
-//         default: 
-//         var wrong = new Audio("./sounds/wrong.mp3");
-//         wrong.play();
-// }
-
-// }
-// )
-
-
-
 
